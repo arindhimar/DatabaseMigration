@@ -7,11 +7,11 @@ from bson.objectid import ObjectId
 
 # Connect to MongoDB
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["student_test1"]
-collection = db["student_test1"]
+db = client["employee_test1"]
+collection = db["employee_test1"]
 
 # Connect to SQLite
-sqlite_conn = sqlite3.connect("student-test2.db")
+sqlite_conn = sqlite3.connect("employee-test2.db")
 cursor = sqlite_conn.cursor()
 
 # Function to sanitize names for SQL

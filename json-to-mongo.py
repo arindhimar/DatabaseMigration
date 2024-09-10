@@ -9,8 +9,8 @@ def preprocess_json(json_string):
 # Connect to MongoDB
 try:
     client = pymongo.MongoClient("mongodb://localhost:27017/")
-    db = client["student_test1"]
-    collection = db["student_test1"]
+    db = client["employee_test1"]
+    collection = db["employee_test1"]
 except pymongo.errors.ConnectionFailure as e:
     print("Error connecting to MongoDB:", e)
     exit(1)
@@ -18,7 +18,7 @@ except pymongo.errors.ConnectionFailure as e:
 # Load and preprocess data from JSON file with proper encoding
 file_data = []
 try:
-    with open("student-data.json", encoding='utf-8') as file:
+    with open("employee-data.json", encoding='utf-8') as file:
         json_string = file.read()
         json_string = preprocess_json(json_string)
         file_data = json.loads(json_string)

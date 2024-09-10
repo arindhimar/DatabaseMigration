@@ -1,0 +1,12 @@
+[
+    {"id": 1, "name": "Alice Smith", "age": 30, "position": "Software Engineer", "department": "Engineering", "salary": 85000, "address": {"street": "123 Elm St", "city": "Springfield", "state": "IL", "zip": "62704"}, "projects": ["Project Alpha", "Project Beta"]},
+    {"id": 2, "name": "Bob Johnson", "age": 45, "position": "Project Manager", "department": "Engineering", "salary": 95000, "address": {"street": "456 Oak St", "city": "Lincoln", "state": "NE", "zip": "68508"}, "projects": ["Project Gamma"]},
+    {"id": 3, "name": "Charlie Brown", "age": 28, "position": "Data Scientist", "department": "Analytics", "salary": 90000, "address": {"street": "789 Pine St", "city": "Austin", "state": "TX", "zip": "73301"}, "projects": ["Project Delta", "Project Epsilon"]},
+    {"id": 4, "name": "David Williams", "age": 35, "position": "UX Designer", "department": "Design", "salary": 70000, "address": {"street": "101 Maple St", "city": "Portland", "state": "OR", "zip": "97201"}, "projects": ["Project Zeta"]},
+    {"id": 5, "name": "Eva Davis", "age": 40, "position": "HR Specialist", "department": "Human Resources", "salary": 78000, "address": {"street": "202 Cedar St", "city": "Seattle", "state": "WA", "zip": "98101"}, "projects": ["Project Eta"]},
+    {"id": 6, "name": "Frank Miller", "age": 50, "position": "CTO", "department": "Executive", "salary": 120000, "address": {"street": "303 Birch St", "city": "San Francisco", "state": "CA", "zip": "94101"}, "projects": ["Project Theta"]},
+    {"id": 7, "name": "Grace Wilson", "age": 33, "position": "Marketing Manager", "department": "Marketing", "salary": 85000, "address": {"street": "404 Walnut St", "city": "Denver", "state": "CO", "zip": "80201"}, "projects": ["Project Iota"]},
+    {"id": 8, "name": "Hannah Moore", "age": 29, "position": "Sales Executive", "department": "Sales", "salary": 75000, "address": {"street": "505 Chestnut St", "city": "Chicago", "state": "IL", "zip": "60601"}, "projects": ["Project Kappa"]},
+    {"id": 9, "name": "Ian Taylor", "age": 38, "position": "Business Analyst", "department": "Finance", "salary": 90000, "address": {"street": "606 Fir St", "city": "New York", "state": "NY", "zip": "10001"}, "projects": ["Project Lambda"]},
+    {"id": 10, "name": "Julia Anderson", "age": 27, "position": "Graphic Designer", "department": "Design", "salary": 68000, "address": {"street": "707 Willow St", "city": "Boston", "state": "MA", "zip": "02108"}, "projects": ["Project Mu"]}
+]
